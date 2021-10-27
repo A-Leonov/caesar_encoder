@@ -113,3 +113,6 @@ def start():
         print(encrypt(text))
     else:
         decrypt(text)
+        
+        
+ start()
