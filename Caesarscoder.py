@@ -93,7 +93,7 @@ def decrypt(text):
         decrypted = ''
 
 
-def start():
+def main():
     while True:
         way = int(input('Шифруем(1) или дешифруем(2)?\n'))
         if way not in [1, 2]:
@@ -115,4 +115,5 @@ def start():
         decrypt(text)
         
         
- start()
+if __name__ == "__main__":
+    main()
